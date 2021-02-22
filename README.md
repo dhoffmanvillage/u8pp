@@ -60,6 +60,7 @@ The `Flight` class stores all `Reservation`s for a `Flight`. Each `Flight` repre
   - Empty seats (or `null` entries) should be represented as `EMPTY`
   - `Reservation`s that have a passenger should be represented by the passenger's name
   - There should be a single space between each seat. There should be no spaces along the edges of the plane
+  - Rows should be separated by a new line
 - The method `getSeats()` that returns the two-dimensional array of seats. This is used for testing purposes, and normally would not be necessary in your program.
 
 ## Grading
